@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Shoes</string>
+    <string name="hello_text">Привет!</string>
+    <string name="entry_text">Заполните Свои Данные Или\n Продолжите Через Социальные Медиа</string>
+    <string name="entry_email_text">Email</string>
+    <string name="entry_password_text">Пароль</string>
+    <string name="entry_hint_email_text">xyz@gmail.com</string>
+    <string name="entry_hint_password_text">••••••••</string>
+    <string name="entry_recover_password_text">Восстановить</string>
+    <string name="entry_enter_text">Войти</string>
+    <string name="entry_create_user_text">Вы впервые? Создать пользователя</string>
+</resources>

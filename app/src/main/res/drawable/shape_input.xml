@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <padding
+        android:bottom="16dp"
+        android:left="14dp"
+        android:top="16dp" />
+
+    <solid android:color="@color/input_text_color"/>
+
+    <corners android:radius="@dimen/input_corner_radius_16"/>
+
+
+</shape>

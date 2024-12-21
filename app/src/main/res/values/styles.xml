@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="entry_button">
+        <item name="android:drawablePadding">@dimen/entry_space_14</item>
+        <item name="backgroundTint">@color/entry_button_color</item>
+        <item name="cornerRadius">@dimen/entry_space_14</item>
+
+    </style>
+
+</resources>
