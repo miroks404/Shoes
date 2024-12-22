@@ -5,7 +5,17 @@
         <item name="android:drawablePadding">@dimen/entry_space_14</item>
         <item name="backgroundTint">@color/entry_button_color</item>
         <item name="cornerRadius">@dimen/entry_space_14</item>
+    </style>
 
+    <style name="input_about_text">
+        <item name="android:fontFamily">@font/new_peninim_mt</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
+    <style name="entry_input">
+        <item name="android:background">@drawable/shape_input</item>
+        <item name="android:fontFamily">@font/new_peninim_mt</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
     </style>
 
 </resources>
