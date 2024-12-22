@@ -80,16 +80,25 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/etEmail" />
 
-            <EditText
-                android:id="@+id/etPassword"
-                style="@style/entry_input"
+            <FrameLayout
+                android:id="@+id/layoutPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/entry_space_12"
-                android:hint="@string/entry_hint_password_text"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvPassword" />
+                app:layout_constraintTop_toBottomOf="@+id/tvPassword">
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    style="@style/entry_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/entry_space_12"
+                    android:drawableEnd="@drawable/eye_close"
+                    android:drawablePadding="@dimen/entry_space_14"
+                    android:hint="@string/entry_hint_password_text" />
+
+            </FrameLayout>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -100,11 +109,12 @@
                 android:textColor="@color/text_grey_color"
                 android:textSize="@dimen/text_size_12"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+                app:layout_constraintTop_toBottomOf="@+id/layoutPassword" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <Button
+            android:id="@+id/bEnter"
             style="@style/entry_button"
             android:layout_width="match_parent"
             android:layout_height="50dp"

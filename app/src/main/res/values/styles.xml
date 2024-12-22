@@ -16,6 +16,7 @@
         <item name="android:background">@drawable/shape_input</item>
         <item name="android:fontFamily">@font/new_peninim_mt</item>
         <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:maxLines">1</item>
     </style>
 
 </resources>
