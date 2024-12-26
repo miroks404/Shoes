@@ -4,7 +4,6 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
-import android.view.MotionEvent
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.shoes.databinding.ActivityMainBinding
@@ -33,7 +32,7 @@ class MainActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
             if (isValidEmail(emailText)) {
-                val intent = Intent(this@MainActivity, SecondActivity::class.java)
+                val intent = Intent(this@MainActivity, MainActivity2::class.java)
                 startActivity(intent)
             } else {
                 showErrorDialog(this@MainActivity, "Неверный email", "Введен невалидный email")

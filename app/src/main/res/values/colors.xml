@@ -5,5 +5,5 @@
     <color name="text_black_color">#2B2B2B</color>
     <color name="text_grey_color">#707B81</color>
     <color name="input_text_color">#F7F7F9</color>
-    <color name="entry_button_color">#48B2E7</color>
+    <color name="accent_color">#48B2E7</color>
 </resources>
